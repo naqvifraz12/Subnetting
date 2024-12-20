@@ -37,7 +37,7 @@ elif subnets > 1:
         
 counter = 32 - subnet_mask_int
 
-hosts = counter*counter
+hosts = (counter*counter) - 2
 
 
 
